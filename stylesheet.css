@@ -1,0 +1,196 @@
+@import url(http://fonts.googleapis.com/css?family=Carrois+Gothic+SC);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(http://fonts.googleapis.com/css?family=Francois+One);
+
+body {
+	padding:0;
+	margin:0;
+}
+
+div {
+	display: inline-block;
+}
+
+header {
+	width:100%;
+	height:140px;
+	top:0;
+	left:0;
+	display: inline-block;
+	}
+
+section {
+	box-shadow: 0 0 3px #888888;
+	display: inline-block;
+}
+
+#site-banner {
+	width:100%;
+	height:100px;
+	display: inline-block;
+}
+
+.banner-red {
+	background: -webkit-linear-gradient(#C5252B, #85191d); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#C5252B, #85191d); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#C5252B, #85191d); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#C5252B, #85191d); /* Standard syntax (must be last) */
+}
+
+.banner-blue {
+	background: -webkit-linear-gradient(#0a7dbf, #14577d); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#0a7dbf, #14577d); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#0a7dbf, #14577d); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#0a7dbf, #14577d); /* Standard syntax (must be last) */
+}
+
+.banner-grey {
+	background-color: #adadad;
+}
+
+#name {
+	display: inline-block;
+	margin-left: 40px;
+	margin-top:30px;
+	font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+#search {
+	display: inline-block;
+	float: right;
+	margin-top: 40px;
+	margin-right: 40px;
+}
+
+a, h1, h3 {
+	color:#fcf8f1;
+	margin: 0;
+}
+
+h3 {
+	font-family: 'Francois One', sans-serif;
+}
+
+#nav-menu {
+	width: 100%;
+	display: inline-block;
+	height:40px;
+	text-align: center;
+	background-color: #C5252B;
+	line-height:20px;
+}
+
+li {
+	display: inline-block;
+	padding: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	margin: 0;
+}
+
+li:hover {
+	background-color:#85191d;
+}
+
+ul {
+	margin: 0;
+}
+
+#headline-story {
+	margin-left:40px;
+	margin-top:10px;
+	width:700px;
+	height:337px;
+	text-align:center;
+	float: left;
+}
+
+#breaking-news-banner {
+	font-size:15px;
+	font-family: 'Francois One', sans-serif;
+	display: inline-block;
+	text-align: left;
+	width:700px;
+	height:25px;
+	display: inline-block;
+}
+
+#breaking-news-banner h3{
+	margin-left:10px;
+
+}
+
+#headline-story h1 {
+	font-weight:bold;
+	font-size:30px;
+	color:#474747;
+	font-family: 'Francois One', sans-serif;
+	margin: 10px 0;
+}
+
+#headline-story h1:hover {
+	color:#ff4800;
+}
+
+#breaking-news-details {
+	width:700px;
+	height:250px;
+	text-align: left;
+}
+
+video {
+	width:500px; 
+	height:250px;
+	margin:0;
+	padding:0;
+	display: inline-block;
+	float: left;
+}
+
+#breaking-news-preview {
+	width:180px;
+	float: right;
+}
+
+p {
+	color:#474747;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#side-bar-right1 {
+	width:300px;
+	height:500px;
+	height:400px;
+	float: right;
+	margin: 10px 40px 10px 0;
+	display: inline-block;
+}
+
+#side-bar-right2 {
+	width:300px;
+	height:300px;
+	float: right;
+	margin: 10px 40px 10px 0;
+	display: inline-block;
+}
+
+#content {
+	width:700px;
+	height:500px;
+	margin: 10px 0 10px 40px;
+	float: left;
+}
+
+#side-bar-r1, #side-bar-r2 {
+	width:100%;
+}
+
+#side-bar-r1 h3 {
+	color:#474747;;
+}
+
+#side-bar-r1 h3, #side-bar-r2 h3 {
+	margin-left: 10px;
+}
+
