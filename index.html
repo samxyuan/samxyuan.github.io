@@ -1,12 +1,39 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR...nsitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>auto iframe height adjust</title>
+<style>
+
+
+
+</style>
+<script type="text/javascript">
+<!--//
+function sizeFrame() {
+var F = document.getElementById("myFrame");
+if(F.contentDocument) {
+F.height = F.contentDocument.documentElement.scrollHeight+30; //FF 3.0.11, Opera 9.63, and Chrome
+} else {
+
+
+
+F.height = F.contentWindow.document.body.scrollHeight+30; //IE6, IE7 and Chrome
+}
+
+}
+
+window.onload=sizeFrame; 
+
+//-->
+</script>
 </head>
 <body>
-	<iframe src="http://www.samxyuan.org" width="100%" height="1080">
-	  <p>Your browser does not support iframes.</p>
-	</iframe>
 
+
+<iframe src="http://www.samxyuan.org" width="100%" id="myFrame" src="thispage.htm" scrolling="no" frameborder="0">
+An iframe capable browser is
+required to view this web site.
+</iframe>
 </body>
-
-</html>
+</html> 
