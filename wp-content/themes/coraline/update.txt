@@ -1,0 +1,127 @@
+v2.1
+Updated twitter api to v1.1.
+
+edited:
+--style.css
+--functions.php
+--functions/theme-config.php
+--functions/themes.php
+--functions/theme-helper.php
+--functions/settings/theme-settings.php
+--functions/plugins/tweets.php
+--functions/plugins/footer-tweets.php
+--functions/widgets/widget-tweets.php
+
+
+added:
+--functions/plugins/twitteroauth.php
+
+
+
+
+v2.0
+Improve the lavalamp issue.
+--style.css
+--functions.php
+--assets/js/jquery-ddsmoothmenu.js
+
+
+
+
+V1.9
+1). Improved twitter feed.
+2). Improved flickr feed.
+
+edited:
+--style.css
+--assets/css/widget.css
+--functions.php
+--php/footer.php
+--functions/plugins/flickr.php
+--functions/plugins/tweets.php
+--functions/plugins/footer-tweets.php
+--functions/widgets/widget-flickr.php
+--functions/widgets/widget-tweets.php
+
+
+
+
+V1.8
+1). Fixed the li list on blog list.
+2). Fixed a responsiveness issue.
+3). Fixed the twitter API's issue.
+4). Added recaptcha option for the contact form.
+5). Improved the contact from to disable spam.
+
+
+edited:
+--assets/css/responsive.css
+--style.css
+--functions.php
+--functions/themes.php
+--functions/theme-config.php
+--functions/settings/theme-settings.php
+--functions/plugins/contact.php
+--functions/plugins/tweets.php
+--functions/plugins/footer-tweets.php
+--template-contact.php
+
+
+added:
+--functions/plugins/recaptchalib.php
+
+
+
+V1.7
+
+1). Fixed the issue in theme.php
+2). Improved the socia media widgets.
+3). Fixed the contact form issue.
+
+
+
+V1.6
+
+1). Added email to the top socia medias.
+2). Fixed some responsive issues. 
+3). Fixed the wp caption of image issue.
+
+
+
+V1.5
+1).Fixed twitter link format issue.
+2).Fixed the showposts issue of custom sidebars.
+3).Fixed the wp caption shortcode issue.
+
+
+
+V1.4
+1). Added linkedIn button.
+2). Added font optionals for body, menu, h1...h6, slogan.
+3). Added the lavalamp for top menu.
+4). Fixed Html5 video and audio issue in Firefox.
+5). Fixed the ajax portfolio close button issue in IE7.
+6). Fixed video poster image uploader issue in blog.
+
+
+V1.3
+1). Improved top socia medias.
+2). Added theme update notifier.
+3). Added google fonts api optional.
+
+
+V1.2
+1). Added shortcode generator.
+2). Added socia medias widget.
+3). Added custom css option.
+4). Improved custom homepage.
+5). Fixed responsive css issue for ajax portfolio.
+6). Fixed footer twitter cache time issue.
+7). Fixed the tabs shortcode repeat titles issue.
+
+
+V1.1
+1). Improved the ajax portfolio.
+2). Improved the top socia medias.
+3). Fixed some shortcode issues.
+4). Improved the theme options UI.

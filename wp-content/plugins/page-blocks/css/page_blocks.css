@@ -1,0 +1,69 @@
+/*
+Copyright (c) 2008 Paolo Ermani (SoftWUD) (email: softwud@softwud.com)
+
+This file is part of the Page Blocks WordPress plugin.
+
+The Page Blocks plugin is free software: you can redistribute it and / or modify
+it under the terms of the GNU General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version.
+
+This program is distributed in the hope that it will be useful, but	WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the	GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program. If not, see <http://www.gnu.org/licenses/>.
+*/
+
+#pbs_top_left, #pbs_top_right, #pbs_bottom_left, #pbs_bottom_right
+{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-align: left;
+	width: 50%;
+}
+
+#pbs_top_left, #pbs_bottom_left
+{
+	float: left;
+}
+
+#pbs_top_right, #pbs_bottom_right
+{
+	float: right;
+}
+
+div.dbx-content table th
+{
+	text-align: left;
+	width: 25%;
+}
+
+/* ClearFix hack */
+
+.pbs_clearfix:after
+{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.pbs_clearfix
+{
+	display: inline-block;
+}
+
+html[xmlns] .pbs_clearfix
+{
+	display: block;
+}
+
+* html .pbs_clearfix
+{
+	height: 1%;
+}

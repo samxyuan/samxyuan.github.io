@@ -1,0 +1,1 @@
+[16-Apr-2014 23:54:44 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home5/samxyuan/public_html/wp-content/plugins/hello.php on line 60
